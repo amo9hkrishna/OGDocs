@@ -1,4 +1,48 @@
-site_name: My Docs
-site_url: https://amo9hkr1shna.com/OGDocs
+
+site_name: OGDocs
+site_description: Notes on Masters Advice, Fitness, Skill Development, and Anti-Patterns
+site_url: https://amo9hkrishna.com/OGDocs
 theme:
   name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+    - header.autohide
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+nav:
+  - Home: index.md
+  - Masters Advice: masters.md
+  - Fitness & Gym: fitness.md
+  - Skill Development: skills.md
+  - Things Not To Do: donts.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - toc:
+      permalink: true
+
+repo_url: https://github.com/amo9hkrishna/OGDocs
+repo_name: amo9hkrishna/OGDocs
+edit_uri: edit/main/docs/
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/amo9hkrishna
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/amogh-krishna

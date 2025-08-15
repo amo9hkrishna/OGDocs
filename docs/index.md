@@ -1,21 +1,26 @@
-# Welcome to MkDocs
+---
+title: Welcome
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Welcome
 
-## Commands
+This is your central hub for all notes, tips, and resources. Use the tabs above to jump directly to topic-specific pages.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+> 💡 **Tip:** Keep each page focused on one theme. If a topic grows too big, split it into subpages for easier navigation.
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 📚 Quick Links
+- [🎓 Masters Advice](masters.md)
+- [🏋️ Fitness & Gym](gym.md)
+- [🧠 Skill Development](skill_dev.md)
+- [❌ Things Not To Do](donts.md)
 
+---
 
-## Hello
+## 🚀 Getting Started
+You can edit and expand this site easily.
 
+1. Install dependencies:
+   ```bash
+   pip install mkdocs mkdocs-material

@@ -21,9 +21,9 @@ theme:
 nav:
   - Home: index.md
   - Masters Advice: masters.md
-  - Fitness & Gym: fitness.md
-  - Skill Development: skills.md
-  - Things Not To Do: donts.md
+  - Fitness & Gym: gym.md
+  - Skill Dev: skills.md
+  - What Not To Do: donts.md
 
 plugins:
   - search

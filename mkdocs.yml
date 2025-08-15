@@ -16,8 +16,8 @@ theme:
     - search.highlight
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
 nav:
   - Home: index.md
   - Masters Advice: masters.md
@@ -46,3 +46,7 @@ extra:
       link: https://github.com/amo9hkrishna
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/amogh-krishna
+
+
+extra_css:
+  - styles/extra.css

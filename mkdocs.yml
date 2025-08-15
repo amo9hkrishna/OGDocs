@@ -15,7 +15,7 @@ theme:
     - search.suggest
     - search.highlight
   palette:
-    - scheme: default
+    - scheme: slate
       primary: custom
       accent: custom
 nav:
@@ -49,4 +49,4 @@ extra:
 
 
 extra_css:
-  - styles/extra.css
+  - stylesheets/extra.css
